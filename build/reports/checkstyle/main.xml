@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.21.0">
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/app/MindEscape.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="5" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="5" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="6" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="6" column="29" severity="error" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/caesarcipher/impl/CaesarCipherControllerImpl.java">
+<error line="15" column="74" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="29" severity="error" message="Parameter input should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="49" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="76" column="5" severity="error" message="Class &apos;CaesarCipherControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getEncryptedText&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;CaesarCipherControllerImpl&apos; final or making the method &apos;getEncryptedText&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="81" column="5" severity="error" message="Class &apos;CaesarCipherControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;canSave&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;CaesarCipherControllerImpl&apos; final or making the method &apos;canSave&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="86" column="5" severity="error" message="Class &apos;CaesarCipherControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getModel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;CaesarCipherControllerImpl&apos; final or making the method &apos;getModel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="95" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/caesarcipher/api/CaesarCipherController.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/impl/ControllerMapImpl.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="33" column="5" severity="error" message="Class &apos;ControllerMapImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;findController&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerMapImpl&apos; final or making the method &apos;findController&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="39" column="5" severity="error" message="Class &apos;ControllerMapImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;addController&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerMapImpl&apos; final or making the method &apos;addController&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="44" column="5" severity="error" message="Class &apos;ControllerMapImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;removeController&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerMapImpl&apos; final or making the method &apos;removeController&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="49" column="5" severity="error" message="Class &apos;ControllerMapImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;clear&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerMapImpl&apos; final or making the method &apos;clear&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="54" column="5" severity="error" message="Class &apos;ControllerMapImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;containsController&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerMapImpl&apos; final or making the method &apos;containsController&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="5" severity="error" message="Class &apos;ControllerMapImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getControllers&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerMapImpl&apos; final or making the method &apos;getControllers&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/impl/ControllerBuilderImpl.java">
+<error line="34" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="39" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildMenu&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildMenu&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="44" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildPuzzle&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildPuzzle&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="49" severity="error" message="Line is longer than 130 characters (found 171)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildEnigmaFirstDoor&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildEnigmaFirstDoor&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="57" severity="error" message="Line is longer than 130 characters (found 185)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="60" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildCalendar&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildCalendar&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="65" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildComputer&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildComputer&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" severity="error" message="Line is longer than 130 characters (found 164)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="70" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildWardrobe&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildWardrobe&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="72" column="11" severity="info" message="Comment matches to-do format &apos;TODO:&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="73" severity="error" message="Line is longer than 130 characters (found 169)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="76" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildNewWorld&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildNewWorld&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="81" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildExistingWorld&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildExistingWorld&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="85" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="86" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildLoad&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildLoad&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="91" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildInventory&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildInventory&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="96" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;buildDrawer&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;buildDrawer&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="98" severity="error" message="Line is longer than 130 characters (found 161)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="101" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;reset&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;reset&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="106" column="5" severity="error" message="Class &apos;ControllerBuilderImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getResult&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ControllerBuilderImpl&apos; final or making the method &apos;getResult&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/api/Controller.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="12" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/api/ControllerBuilder.java">
+<error line="69" column="31" severity="error" message="Expected @param tag for &apos;world&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/api/ControllerName.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="28" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="32" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="38" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="58" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/api/ClickableController.java">
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/api/ControllerMap.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="20" column="8" severity="error" message="Unused @param tag for &apos;name&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/api/LoopController.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/core/api/UserInput.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/saveload/SavesController.java">
+<error line="16" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="22" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;handleInput&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;handleInput&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;loadSaveFile&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;loadSaveFile&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="48" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;loadSaveFile&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;loadSaveFile&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="48" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="65" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;updateView&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;updateView&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="65" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="69" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;getName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;getName&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="74" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;getPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;getPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="79" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;quit&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;quit&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="84" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;canSave&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;canSave&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="89" column="5" severity="error" message="Class &apos;SavesController&apos; looks like designed for extension (can be subclassed), but the method &apos;getModel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesController&apos; final or making the method &apos;getModel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/maincontroller/impl/MainControllerImpl.java">
+<error line="9" column="38" severity="error" message="&apos;.&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"/>
+<error line="25" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="32" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="38" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;setController&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;setController&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="11" severity="info" message="Comment matches to-do format &apos;TODO:&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="64" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;start&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;start&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="69" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getController&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;getController&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="74" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;winning&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;winning&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="79" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;exit&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;exit&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="84" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;save&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;save&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="96" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;loadGame&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;loadGame&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="116" severity="error" message="Line is longer than 130 characters (found 134)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="149" column="5" severity="error" message="Class &apos;MainControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;setPlayerName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainControllerImpl&apos; final or making the method &apos;setPlayerName&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/maincontroller/api/MainController.java">
+<error line="12" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="53" column="25" severity="error" message="Expected @param tag for &apos;world&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="55" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/enigmacalendar/impl/CalendarControllerImpl.java">
+<error line="26" column="35" severity="error" message="Parameter mainController should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="39" column="29" severity="error" message="Parameter input should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/enigmacalendar/api/CalendarController.java">
+<error line="10" column="64" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/worldcontroller/impl/WorldController.java">
+<error line="17" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="39" column="8" severity="error" message="Unused @param tag for &apos;worldView&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="48" column="5" severity="error" message="Class &apos;WorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;handleInput&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldController&apos; final or making the method &apos;handleInput&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="61" column="5" severity="error" message="Class &apos;WorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;quit&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldController&apos; final or making the method &apos;quit&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="66" column="5" severity="warning" message="Class Loop should be declared as final." source="com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"/>
+<error line="92" column="5" severity="error" message="Class &apos;WorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;getName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldController&apos; final or making the method &apos;getName&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="97" column="5" severity="error" message="Class &apos;WorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;getPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldController&apos; final or making the method &apos;getPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="102" column="5" severity="error" message="Class &apos;WorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;canSave&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldController&apos; final or making the method &apos;canSave&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="106" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="107" column="5" severity="error" message="Class &apos;WorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;getModel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldController&apos; final or making the method &apos;getModel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="112" column="5" severity="error" message="Class &apos;WorldController&apos; looks like designed for extension (can be subclassed), but the method &apos;start&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldController&apos; final or making the method &apos;start&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/inventory/InventoryControllerImpl.java">
+<error line="32" column="36" severity="error" message="Parameter inventory should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="46" severity="error" message="Expected @param tag for &apos;inventory&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="29" severity="error" message="Parameter input should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="120" column="33" severity="error" message="Parameter item should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/menu/MenuController.java">
+<error line="17" column="5" severity="warning" message="Class Options should be declared as final." source="com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"/>
+<error line="23" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="28" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="33" column="5" severity="error" message="Class &apos;MenuController&apos; looks like designed for extension (can be subclassed), but the method &apos;handleInput&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuController&apos; final or making the method &apos;handleInput&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="5" severity="error" message="Class &apos;MenuController&apos; looks like designed for extension (can be subclassed), but the method &apos;getName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuController&apos; final or making the method &apos;getName&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="48" column="5" severity="error" message="Class &apos;MenuController&apos; looks like designed for extension (can be subclassed), but the method &apos;getPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuController&apos; final or making the method &apos;getPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="5" severity="error" message="Class &apos;MenuController&apos; looks like designed for extension (can be subclassed), but the method &apos;quit&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuController&apos; final or making the method &apos;quit&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="60" severity="error" message="Line is longer than 130 characters (found 134)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="75" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="83" column="5" severity="error" message="Class &apos;MenuController&apos; looks like designed for extension (can be subclassed), but the method &apos;canSave&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuController&apos; final or making the method &apos;canSave&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="88" column="5" severity="error" message="Class &apos;MenuController&apos; looks like designed for extension (can be subclassed), but the method &apos;getModel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuController&apos; final or making the method &apos;getModel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="90" column="11" severity="info" message="Comment matches to-do format &apos;TODO:&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/enigmapuzzle/impl/EnigmaPuzzleControllerImpl.java">
+<error line="20" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="31" column="39" severity="error" message="Parameter model should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="31" column="68" severity="error" message="Parameter mainController should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="31" column="83" severity="error" message="Expected @param tag for &apos;mainController&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="33" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="103" column="5" severity="error" message="Class &apos;EnigmaPuzzleControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaPuzzleControllerImpl&apos; final or making the method &apos;getPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="103" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="107" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="107" column="29" severity="error" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="108" severity="error" message="Line is longer than 130 characters (found 140)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="115" column="23" severity="error" message="&apos;500&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="115" column="28" severity="error" message="&apos;400&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="124" column="29" severity="error" message="Parameter input should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="127" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="128" column="5" severity="error" message="Class &apos;EnigmaPuzzleControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;quit&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaPuzzleControllerImpl&apos; final or making the method &apos;quit&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="133" column="5" severity="error" message="Class &apos;EnigmaPuzzleControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;canSave&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaPuzzleControllerImpl&apos; final or making the method &apos;canSave&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="138" column="5" severity="error" message="Class &apos;EnigmaPuzzleControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getModel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaPuzzleControllerImpl&apos; final or making the method &apos;getModel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/enigmapuzzle/api/EnigmaPuzzleController.java">
+<error line="11" column="68" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/enigmapassword/impl/EnigmaPasswordControllerImpl.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="42" column="56" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="74" column="5" severity="error" message="Class &apos;EnigmaPasswordControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;canSave&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaPasswordControllerImpl&apos; final or making the method &apos;canSave&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="79" column="5" severity="error" message="Class &apos;EnigmaPasswordControllerImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getModel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaPasswordControllerImpl&apos; final or making the method &apos;getModel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/controller/enigmapassword/api/EnigmaPasswordController.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/impl/EnigmaFactoryImpl.java">
+<error line="8" column="8" severity="error" message="Unused import - java.util.ResourceBundle.Control." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="25" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" column="5" severity="error" message="Class &apos;EnigmaFactoryImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getEnigma&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaFactoryImpl&apos; final or making the method &apos;getEnigma&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="44" column="36" severity="error" message="Parameter value should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="52" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="56" column="23" severity="info" message="Comment matches to-do format &apos;TODO:&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="58" column="63" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="58" column="66" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="73" column="5" severity="error" message="Class &apos;EnigmaFactoryImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getEnigmas&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;EnigmaFactoryImpl&apos; final or making the method &apos;getEnigmas&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="76" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/caesarcipher/impl/CaesarCipherModelImpl.java">
+<error line="13" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="77" column="57" severity="error" message="&apos;%&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="77" column="57" severity="error" message="&apos;%&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="77" column="58" severity="error" message="&apos;26&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="77" column="64" severity="error" message="&apos;26&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="77" column="70" severity="error" message="&apos;26&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/caesarcipher/api/CaesarCipherModel.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/enigmapuzzle/impl/EnigmaPuzzleModelImpl.java">
+<error line="4" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="6" column="17" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="13" column="23" severity="error" message="Name &apos;ROWS&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="14" column="23" severity="error" message="Name &apos;COLS&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="28" column="34" severity="error" message="Parameter rows should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="44" severity="error" message="Parameter cols should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="54" severity="error" message="Parameter image should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="67" severity="error" message="Parameter puzzleName should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="38" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="74" column="27" severity="error" message="Parameter row should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="74" column="36" severity="error" message="Parameter col should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="108" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="113" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="120" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="152" column="28" severity="error" message="Parameter firstRow should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="152" column="42" severity="error" message="Parameter firstCol should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="152" column="56" severity="error" message="Parameter secondRow should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="152" column="71" severity="error" message="Parameter secondCol should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="157" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="174" column="71" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="180" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="182" column="51" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="189" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="191" column="36" severity="error" message="Parameter img1 should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="191" column="56" severity="error" message="Parameter img2 should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="196" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="207" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="218" column="24" severity="error" message="Parameter value should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/enigmapuzzle/api/EnigmaPuzzleModel.java">
+<error line="5" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/enigmapassword/impl/EnigmaPasswordModelImpl.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="52" column="24" severity="error" message="Parameter value should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/enigmapassword/api/EnigmaPasswordModel.java">
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/api/EnigmaFactory.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="17" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="68" column="22" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/enigma/api/Enigma.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/saveload/impl/SavesImpl.java">
+<error line="9" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="5" severity="error" message="Class &apos;SavesImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getSortedSaveFiles&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesImpl&apos; final or making the method &apos;getSortedSaveFiles&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/saveload/util/SaveManager.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="24" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="48" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="54" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="69" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="70" column="14" severity="error" message="Redundant &apos;final&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/saveload/api/Saves.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/impl/WorldImpl.java">
+<error line="42" column="62" severity="error" message="&apos;110&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="42" column="67" severity="error" message="&apos;170&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="48" column="5" severity="error" message="Class &apos;WorldImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getRooms&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldImpl&apos; final or making the method &apos;getRooms&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="5" severity="error" message="Class &apos;WorldImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;letPlayerInteract&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldImpl&apos; final or making the method &apos;letPlayerInteract&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="5" severity="error" message="Class &apos;WorldImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;hasWon&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldImpl&apos; final or making the method &apos;hasWon&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="83" column="5" severity="error" message="Class &apos;WorldImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getCurrentRoom&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldImpl&apos; final or making the method &apos;getCurrentRoom&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="88" column="5" severity="error" message="Class &apos;WorldImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;addRoom&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldImpl&apos; final or making the method &apos;addRoom&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="94" column="5" severity="error" message="Class &apos;WorldImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;movePlayer&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldImpl&apos; final or making the method &apos;movePlayer&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="100" severity="error" message="Line is longer than 130 characters (found 143)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="113" column="5" severity="error" message="Class &apos;WorldImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getPlayer&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldImpl&apos; final or making the method &apos;getPlayer&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/impl/CollisionDetectorImpl.java">
+<error line="12" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="64" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="5" severity="error" message="Class &apos;CollisionDetectorImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;collisions&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;CollisionDetectorImpl&apos; final or making the method &apos;collisions&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/impl/GameObjectImpl.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/api/CollisionDetector.java">
+<error line="6" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/api/Point2D.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/api/Pair.java">
+<error line="26" column="17" severity="error" message="Parameter x should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="26" column="22" severity="error" message="Parameter y should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="72" column="27" severity="error" message="Parameter obj should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="73" column="9" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="75" column="9" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="77" column="9" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="81" column="13" severity="error" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="90" column="39" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/api/Dimensions.java">
+<error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="30" severity="error" message="Variable &apos;TILE&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="14" column="30" severity="error" message="Name &apos;TILE&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="16" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/api/Movement.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/core/api/GameObject.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/api/World.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/rooms/impl/RoomImpl.java">
+<error line="24" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="37" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="37" column="21" severity="error" message="Parameter roomFilePath should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="44" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;isPlayerPresent&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;isPlayerPresent&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="49" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;addGameObject&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;addGameObject&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="50" column="31" severity="error" message="Parameter gameObject should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="56" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;removeGameObject&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;removeGameObject&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="57" column="34" severity="error" message="Parameter gameObject should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getGameObjects&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;getGameObjects&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="66" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;isPositionValid&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;isPositionValid&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="66" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="66" column="36" severity="error" message="Parameter pos should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="66" column="49" severity="error" message="Parameter dim should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="29" severity="error" message="&apos;&amp;&amp;&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="68" column="26" severity="error" message="&apos;&amp;&amp;&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="69" column="62" severity="error" message="&apos;&amp;&amp;&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="73" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;toString&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;toString&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="28" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="76" column="40" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="77" column="44" severity="error" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="81" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;getName&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="86" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="105" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getSource&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;getSource&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="110" column="5" severity="error" message="Class &apos;RoomImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getDimensions&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RoomImpl&apos; final or making the method &apos;getDimensions&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/rooms/impl/ObjectsExtractor.java">
+<error line="32" column="33" severity="error" message="Parameter roomPath should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="77" column="5" severity="error" message="Class &apos;ObjectsExtractor&apos; looks like designed for extension (can be subclassed), but the method &apos;addDoors&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;ObjectsExtractor&apos; final or making the method &apos;addDoors&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="77" column="30" severity="error" message="Parameter roomPath should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="77" column="47" severity="error" message="Parameter rooms should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="93" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="127" column="52" severity="error" message="Parameter map should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/rooms/api/Room.java">
+<error line="62" severity="error" message="@return tag should be present and have description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/noninteractable/impl/NonInteractableImpl.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/noninteractable/api/NonInteractable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/UnpickableWithEnigmaImpl.java">
+<error line="28" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/PickableImpl.java">
+<error line="27" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/LockedUnpickable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/DoorLockedWithEnigma.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/InteractableFactoryImpl.java">
+<error line="50" severity="error" message="Line is longer than 130 characters (found 133)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/DoorImpl.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/RewardFactory.java">
+<error line="13" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="14" column="5" severity="error" message="Class &apos;RewardFactory&apos; looks like designed for extension (can be subclassed), but the method &apos;getReward&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;RewardFactory&apos; final or making the method &apos;getReward&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="14" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="39" column="17" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/UnpickableImpl.java">
+<error line="26" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/impl/DoorLockedWithPickable.java">
+<error line="22" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="32" column="8" severity="error" message="Unused @param tag for &apos;keyItem_id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="66" severity="error" message="Expected @param tag for &apos;keyItemId&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/api/Unpickable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/api/InteractableFactory.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/api/Door.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/api/Interactable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/api/UnpickableWithEnigma.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/interactable/api/Pickable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/api/Interactable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/items/api/Unmovable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/player/impl/PlayerImpl.java">
+<error line="15" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="26" severity="error" message="Line is longer than 130 characters (found 138)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="57" column="29" severity="error" message="Parameter interactable should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="58" column="9" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="58" column="9" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="58" column="33" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="60" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="71" column="32" severity="error" message="Parameter room should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/player/api/Movable.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/world/player/api/Player.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/inventory/impl/InventoryImpl.java">
+<error line="39" column="26" severity="error" message="Parameter pickable should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="52" column="31" severity="error" message="Parameter pickable should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/inventory/api/Inventory.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/menu/api/Menu.java">
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="4" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/model/api/Model.java">
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/caesarcipher/impl/CaesarCipherViewImpl.java">
+<error line="25" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="75" column="37" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="81" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="86" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="97" column="41" severity="error" message="&apos;15&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="100" column="21" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="109" column="42" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="112" column="78" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/caesarcipher/api/CaesarCipherView.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/saveload/SavesView.java">
+<error line="6" column="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="7" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="13" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="20" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="23" column="38" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="23" column="42" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="23" column="46" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="30" column="71" severity="error" message="&apos;255&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="30" column="76" severity="error" message="&apos;215&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" column="42" severity="error" message="&apos;255&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" column="47" severity="error" message="&apos;215&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="55" column="55" severity="error" message="&apos;18&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" column="69" severity="error" message="&apos;255&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" column="74" severity="error" message="&apos;215&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="59" column="5" severity="error" message="Class &apos;SavesView&apos; looks like designed for extension (can be subclassed), but the method &apos;updateSaveFiles&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesView&apos; final or making the method &apos;updateSaveFiles&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="59" column="33" severity="error" message="Parameter saveFiles should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="85" column="5" severity="error" message="Class &apos;SavesView&apos; looks like designed for extension (can be subclassed), but the method &apos;getPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;SavesView&apos; final or making the method &apos;getPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/world/PlayerView.java">
+<error line="21" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="29" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="30" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="30" column="53" severity="error" message="&apos;*&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="30" column="53" severity="error" message="&apos;*&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="31" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="32" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="38" column="9" severity="error" message="Variable &apos;x&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="39" column="9" severity="error" message="Variable &apos;y&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="41" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="41" column="23" severity="error" message="Parameter pos should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" column="31" severity="error" message="&apos;48&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="64" column="31" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="67" column="31" severity="error" message="&apos;96&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="68" column="31" severity="error" message="&apos;112&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="71" column="27" severity="error" message="&apos;300&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="77" column="5" severity="error" message="Class &apos;PlayerView&apos; looks like designed for extension (can be subclassed), but the method &apos;setPosition&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PlayerView&apos; final or making the method &apos;setPosition&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="77" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="77" column="29" severity="error" message="Parameter pos should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="82" column="5" severity="error" message="Class &apos;PlayerView&apos; looks like designed for extension (can be subclassed), but the method &apos;draw&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PlayerView&apos; final or making the method &apos;draw&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="82" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="82" column="22" severity="error" message="Parameter g should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="82" column="34" severity="error" message="Parameter offset should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="82" column="46" severity="error" message="Parameter scaling should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="82" column="62" severity="error" message="Parameter keys should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="84" column="40" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="86" column="17" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="87" column="17" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="91" column="35" severity="error" message="Parameter keys should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="91" column="62" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/world/WorldViewImpl.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="32" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="42" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="53" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="53" column="26" severity="error" message="Parameter worldController should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" column="59" severity="error" message="Parameter currentRoom should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="65" column="5" severity="error" message="Class &apos;WorldViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;draw&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldViewImpl&apos; final or making the method &apos;draw&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="66" column="22" severity="error" message="Parameter currentRoom should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="76" column="5" severity="error" message="Class &apos;WorldViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldViewImpl&apos; final or making the method &apos;getPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="81" column="5" severity="error" message="Class &apos;WorldViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;paintComponent&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldViewImpl&apos; final or making the method &apos;paintComponent&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="82" column="35" severity="error" message="Parameter g should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="91" column="28" severity="error" message="Parameter layer should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="91" column="50" severity="error" message="Parameter g should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="91" column="62" severity="error" message="Parameter map should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="111" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="112" column="48" severity="error" message="Parameter map should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="119" column="40" severity="error" message="&apos;(&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"/>
+<error line="119" column="41" severity="error" message="Parameter tile should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="135" column="48" severity="error" message="Parameter img should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="135" column="67" severity="error" message="Parameter horizontal should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="135" column="87" severity="error" message="Parameter diagonal should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="145" column="33" severity="error" message="Parameter image should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="155" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="156" column="39" severity="error" message="Parameter image should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="156" column="60" severity="error" message="Parameter angle should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="169" column="49" severity="error" message="Parameter image should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="183" column="39" severity="error" message="Parameter tile should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="183" column="55" severity="error" message="Parameter mapWidth should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="192" column="34" severity="error" message="Parameter currentRoom should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="193" column="43" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="193" column="86" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="201" column="30" severity="error" message="Parameter currentRoom should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="206" column="26" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="209" column="5" severity="error" message="Class &apos;WorldViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;keyPressed&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldViewImpl&apos; final or making the method &apos;keyPressed&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="210" column="28" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="217" column="5" severity="error" message="Class &apos;WorldViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;keyReleased&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldViewImpl&apos; final or making the method &apos;keyReleased&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="218" column="29" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="225" column="5" severity="error" message="Class &apos;WorldViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;getKeyState&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldViewImpl&apos; final or making the method &apos;getKeyState&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="230" column="5" severity="error" message="Class &apos;WorldViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;clearInput&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;WorldViewImpl&apos; final or making the method &apos;clearInput&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/utils/ViewUtils.java">
+<error line="3" column="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="4" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" column="22" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.event.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="10" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="12" column="31" severity="error" message="Name &apos;defaultFont&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="13" column="31" severity="error" message="Name &apos;titleFont&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="14" column="32" severity="error" message="Name &apos;buttonColor&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="15" column="32" severity="error" message="Name &apos;buttonHoverColor&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="16" column="32" severity="error" message="Name &apos;labelColor&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="17" column="32" severity="error" message="Name &apos;panelColor&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="18" column="32" severity="error" message="Name &apos;textFieldBackground&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="19" column="32" severity="error" message="Name &apos;textFieldTextColor&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="20" column="32" severity="error" message="Name &apos;textAreaBackground&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="21" column="32" severity="error" message="Name &apos;textAreaTextColor&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="35" column="67" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="71" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="75" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="47" severity="error" message="&apos;150&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="52" severity="error" message="&apos;40&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="42" column="38" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="48" column="37" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="75" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="50" column="79" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="50" column="83" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="63" column="44" severity="error" message="Parameter text should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="89" column="52" severity="error" message="Parameter columns should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="94" column="61" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="94" column="68" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="105" column="52" severity="error" message="Parameter rows should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="105" column="62" severity="error" message="Parameter columns should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="112" column="42" severity="error" message="&apos;255&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="112" column="47" severity="error" message="&apos;255&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="112" column="52" severity="error" message="&apos;255&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="127" column="43" severity="error" message="Parameter text should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="130" column="44" severity="error" message="&apos;255&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="130" column="49" severity="error" message="&apos;69&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="133" column="51" severity="error" message="&apos;400&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="133" column="56" severity="error" message="&apos;80&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/enigmacalendar/impl/CalendarViewImpl.java">
+<error line="3" column="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="4" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="32" column="57" severity="error" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" column="48" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" column="52" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" column="56" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="58" column="64" severity="error" message="&apos;18&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="63" column="69" severity="error" message="&apos;18&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="75" column="42" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="77" column="41" severity="error" message="&apos;14&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="77" column="53" severity="error" message="&apos;30&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="78" column="76" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="105" column="29" severity="error" message="Parameter args should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="109" column="27" severity="error" message="&apos;500&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="109" column="32" severity="error" message="&apos;400&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/enigmacalendar/api/CalendarView.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/inventory/InventoryViewImpl.java">
+<error line="7" column="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="15" column="8" severity="error" message="Unused import - java.awt.event.KeyListener." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="18" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="36" column="30" severity="error" message="Parameter controller should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="46" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="41" column="49" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="57" column="42" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="59" column="53" severity="error" message="&apos;30&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="66" column="36" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="72" column="46" severity="error" message="&apos;600&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="72" column="51" severity="error" message="&apos;400&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="92" column="40" severity="error" message="Parameter items should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="99" column="45" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="110" column="45" severity="error" message="&apos;30&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="122" column="35" severity="error" message="Parameter description should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="132" column="34" severity="error" message="Parameter fontSize should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="142" column="5" severity="error" message="Class &apos;InventoryViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;draw&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;InventoryViewImpl&apos; final or making the method &apos;draw&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/menu/MenuView.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="2" column="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="3" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="15" column="39" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="15" column="43" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="15" column="47" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="16" column="57" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="16" column="61" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="16" column="65" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="16" column="69" severity="error" message="&apos;50&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="18" column="57" severity="error" message="&apos;48&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="25" column="33" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="25" column="37" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="25" column="41" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="25" column="45" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="30" column="60" severity="error" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="31" column="61" severity="error" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="32" column="57" severity="error" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="49" column="42" severity="error" message="Parameter e should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="41" severity="error" message="&apos;24&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="51" column="53" severity="error" message="&apos;15&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" column="81" severity="error" message="&apos;12&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="57" column="82" severity="error" message="&apos;12&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="58" column="78" severity="error" message="&apos;12&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="62" column="5" severity="error" message="Class &apos;MenuView&apos; looks like designed for extension (can be subclassed), but the method &apos;draw&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuView&apos; final or making the method &apos;draw&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="67" column="5" severity="error" message="Class &apos;MenuView&apos; looks like designed for extension (can be subclassed), but the method &apos;getPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MenuView&apos; final or making the method &apos;getPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/enigmapuzzle/impl/EnigmaPuzzleViewImpl.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="16" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/enigmapuzzle/impl/ImageButton.java">
+<error line="3" column="19" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - javax.swing.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="4" column="16" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - java.awt.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="12" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="29" column="26" severity="error" message="Parameter image should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="35" severity="error" message="Parameter g should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/enigmapuzzle/api/EnigmaPuzzleView.java">
+<error line="5" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/enigmapassword/impl/EnigmaPasswordViewImpl.java">
+<error line="25" column="19" severity="error" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="48" column="59" severity="error" message="&apos;18&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="55" column="45" severity="error" message="&apos;15&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" column="68" severity="error" message="&apos;14&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="63" column="60" severity="error" message="&apos;14&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="70" column="59" severity="error" message="&apos;14&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="76" column="65" severity="error" message="&apos;20&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="91" column="78" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/enigmapassword/api/EnigmaPasswordView.java">
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/api/WorldView.java">
+<error line="6" column="8" severity="error" message="Unused import - mindescape.controller.core.api.UserInput." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="18" column="8" severity="error" message="Unused @param tag for &apos;room&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="20" column="20" severity="error" message="Expected @param tag for &apos;currentRoom&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="28" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="30" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/api/View.java">
+<error line="13" column="8" severity="error" message="Unused @param tag for &apos;room&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/api/MainView.java">
+<error line="5" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/main/java/mindescape/view/main/MainViewImpl.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="17" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="30" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="59" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="72" column="23" severity="error" message="&apos;800&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="72" column="28" severity="error" message="&apos;600&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="77" column="5" severity="error" message="Class &apos;MainViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;setPanel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainViewImpl&apos; final or making the method &apos;setPanel&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="79" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="81" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="90" column="5" severity="error" message="Class &apos;MainViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;show&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainViewImpl&apos; final or making the method &apos;show&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="99" column="5" severity="error" message="Class &apos;MainViewImpl&apos; looks like designed for extension (can be subclassed), but the method &apos;won&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;MainViewImpl&apos; final or making the method &apos;won&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+</checkstyle>

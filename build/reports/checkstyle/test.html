@@ -1,0 +1,556 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Checkstyle Violations</title>
+        <style type="text/css">
+                    body {
+                        background-color: #fff;
+                        color: #02303A;
+                    }
+
+                    a {
+                        color: #1DA2BD;
+                    }
+                    a.link {
+                        color: #02303A;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    h1 a[name] {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    tr:nth-child(even) {
+                        background: white;
+                    }
+
+                    th {
+                        font-weight:bold;
+                    }
+                    tr {
+                        background: #efefef;
+                    }
+                    table th, td, tr {
+                        font-size:100%;
+                        border: none;
+                        text-align: left;
+                        vertical-align: top;
+                    }
+                </style>
+    </head>
+    <body>
+        <p>
+            <a name="top">
+                <h1>Checkstyle Results</h1>
+            </a>
+        </p>
+        <hr align="left" width="95%" size="1">
+        <h2>Summary</h2>
+        <table class="summary" width="95%">
+            <tr>
+                <th>Total files checked</th><th>Total violations</th><th>Files with violations</th>
+            </tr>
+            <tr>
+                <td>11</td><td>105</td><td>10</td>
+            </tr>
+        </table>
+        <hr align="left" width="95%" size="1">
+        <div class="violations">
+            <h2>Violations</h2>
+            <p>
+                <table class="filelist" width="95%">
+                    <tr>
+                        <th>File</th><th>Total violations</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65931">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/items/interactable/api/InteractableFactoryTest.java</a></td><td>22</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65815">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/items/interactable/impl/InteractableFactoryImplTest.java</a></td><td>17</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65707">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/rooms/RoomImplTest.java</a></td><td>15</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65615">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/core/impl/CollisionDetectorTest.java</a></td><td>12</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N65542">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/controller/core/impl/ControllerMapImplTest.java</a></td><td>10</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N66250">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/WorldViewImplTest.java</a></td><td>7</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N66158">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/testenigmi/CaesarCipherTest.java</a></td><td>6</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N66204">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/testenigmi/EnigmaPasswordTest.java</a></td><td>6</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N66081">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/SavesViewTest.java</a></td><td>5</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#N66120">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/testViewLauncher/Launcher.java</a></td><td>5</td>
+                    </tr>
+                </table>
+                <p></p>
+                
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65542">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/controller/core/impl/ControllerMapImplTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>File does not end with a newline.</td><td>1</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*.</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>12</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Class 'ControllerMapImplTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ControllerMapImplTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.</td><td>18</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>18</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>25</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>31</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>40</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>46</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>53</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65615">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/core/impl/CollisionDetectorTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*.</td><td>13</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>17</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Variable 'bedRoom' must be private and have accessor methods.</td><td>20</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Variable 'player' must be private and have accessor methods.</td><td>21</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Class 'CollisionDetectorTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CollisionDetectorTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.</td><td>23</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>23</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>29</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'188' is a magic number.</td><td>31</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'127' is a magic number.</td><td>31</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>35</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'118' is a magic number.</td><td>37</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'152' is a magic number.</td><td>37</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65931">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/items/interactable/api/InteractableFactoryTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.core.api.Point2D.</td><td>3</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.rooms.api.Room.</td><td>4</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.rooms.impl.RoomImpl.</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.enigma.api.Enigma.</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.enigma.caesarcipher.impl.CaesarCipherModelImpl.</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.enigma.enigmapassword.impl.EnigmaPasswordModelImpl.</td><td>8</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.core.api.Dimensions.</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.items.interactable.impl.InteractableFactoryImpl.</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.items.interactable.impl.PickableImpl.</td><td>11</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - org.junit.jupiter.api.BeforeEach.</td><td>13</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - org.junit.jupiter.api.Test.</td><td>14</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - java.util.Optional.</td><td>15</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*.</td><td>16</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>18</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 132).</td><td>51</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 135).</td><td>60</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 132).</td><td>68</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 156).</td><td>69</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 132).</td><td>76</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 134).</td><td>77</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 132).</td><td>84</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 138).</td><td>85</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65815">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/items/interactable/impl/InteractableFactoryImplTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>File does not end with a newline.</td><td>1</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>19</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Class 'InteractableFactoryImplTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'InteractableFactoryImplTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.</td><td>23</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>23</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>28</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>35</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 160).</td><td>38</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>43</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 163).</td><td>47</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>52</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 156).</td><td>55</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>60</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 137).</td><td>63</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>68</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 141).</td><td>71</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>76</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Line is longer than 130 characters (found 145).</td><td>79</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N65707">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/model/world/rooms/RoomImplTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>File does not end with a newline.</td><td>1</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*.</td><td>3</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>17</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Class 'RoomImplTest' looks like designed for extension (can be subclassed), but the method 'setUp' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'RoomImplTest' final or making the method 'setUp' static/final/abstract/empty, or adding allowed annotation for the method.</td><td>21</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>21</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>30</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>35</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>42</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>52</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>58</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'254.' is a magic number.</td><td>61</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'254' is a magic number.</td><td>61</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'120' is a magic number.</td><td>62</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'120' is a magic number.</td><td>62</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>65</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N66081">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/SavesViewTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Utility classes should not have a public or default constructor.</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'500' is a magic number.</td><td>11</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'500' is a magic number.</td><td>11</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N66158">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/testenigmi/CaesarCipherTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Utility classes should not have a public or default constructor.</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>11</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Parameter args should be final.</td><td>11</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'400' is a magic number.</td><td>20</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'300' is a magic number.</td><td>20</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N66204">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/testenigmi/EnigmaPasswordTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Utility classes should not have a public or default constructor.</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>9</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Parameter args should be final.</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'400' is a magic number.</td><td>19</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'300' is a magic number.</td><td>19</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N66120">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/testViewLauncher/Launcher.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>File does not end with a newline.</td><td>1</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Utility classes should not have a public or default constructor.</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Parameter args should be final.</td><td>7</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <div class="file-violation">
+                    <h3>
+                        <a class="link" name="N66250">/Users/greppifilippo/oop/projet/OOP24-mind-escape/src/test/java/mindescape/view/WorldViewImplTest.java</a>
+                    </h3>
+                    <table class="violationlist" width="95%">
+                        <tr>
+                            <th>Severity</th><th>Description</th><th>Line Number</th>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>File does not end with a newline.</td><td>1</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.controller.worldcontroller.impl.WorldController.</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.rooms.api.Room.</td><td>6</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.model.world.rooms.impl.RoomImpl.</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Unused import - mindescape.view.world.WorldViewImpl.</td><td>8</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>Missing a Javadoc comment.</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>error</td><td>'{' is not preceded with whitespace.</td><td>10</td>
+                        </tr>
+                    </table>
+                    <p></p>
+                    <a href="#top">Back to top</a>
+                    <p></p>
+                </div>
+                <p></p>
+            </p>
+        </div>
+        <hr align="left" width="95%" size="1">
+        <p>
+            Generated by <a href="https://gradle.org">Gradle 8.11.1</a> with <a href="https://checkstyle.sourceforge.io/">Checkstyle 10.21.0</a>.
+        </p>
+    </body>
+</html>

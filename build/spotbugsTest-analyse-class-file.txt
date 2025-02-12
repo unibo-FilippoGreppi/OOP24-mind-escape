@@ -1,0 +1,11 @@
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/controller/core/impl/ControllerMapImplTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/model/world/core/impl/CollisionDetectorTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/model/world/core/impl/GameObjectImplTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/model/world/rooms/RoomImplTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/model/world/items/interactable/impl/InteractableFactoryImplTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/model/world/items/interactable/api/InteractableFactoryTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/view/testViewLauncher/Launcher.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/view/testenigmi/EnigmaPasswordTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/view/testenigmi/CaesarCipherTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/view/SavesViewTest.class
+/Users/greppifilippo/oop/projet/OOP24-mind-escape/build/classes/java/test/mindescape/view/WorldViewImplTest.class

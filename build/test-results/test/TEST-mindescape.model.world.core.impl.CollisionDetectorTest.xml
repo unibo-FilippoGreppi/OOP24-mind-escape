@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mindescape.model.world.core.impl.CollisionDetectorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-02-12T09:43:01" hostname="Filos-MacBook-Air.local" time="0.181">
+  <properties/>
+  <testcase name="testNoCollisionDetected()" classname="mindescape.model.world.core.impl.CollisionDetectorTest" time="0.067"/>
+  <testcase name="testCollisionDetected()" classname="mindescape.model.world.core.impl.CollisionDetectorTest" time="0.114"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 193): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader giveUnexpectedAttributeWarning
+WARNING: (line 26, column 56): Ignoring unexpected tag attribute (class)
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 193): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader giveUnexpectedAttributeWarning
+WARNING: (line 26, column 56): Ignoring unexpected tag attribute (class)
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:01 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 193): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader giveUnexpectedAttributeWarning
+WARNING: (line 26, column 56): Ignoring unexpected tag attribute (class)
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 193): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader giveUnexpectedAttributeWarning
+WARNING: (line 26, column 56): Ignoring unexpected tag attribute (class)
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 193): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader giveUnexpectedAttributeWarning
+WARNING: (line 26, column 56): Ignoring unexpected tag attribute (class)
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/office.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 193): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/final.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader giveUnexpectedAttributeWarning
+WARNING: (line 26, column 56): Ignoring unexpected tag attribute (class)
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/canteen.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/bedroom.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Beginning to parse TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader checkVersion
+WARNING: (line 2, column 194): Specified TMX format version (1.10) does not match expected version (1.7). Parsing errors may occur.
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Enviroment.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things2.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Beginning to parse TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getTileset
+INFO: Finished parsing TSX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/tilesets/Things.tsx
+Feb 12, 2025 10:43:02 AM org.tiledreader.TiledReader getMap
+INFO: Finished parsing TMX file: /Users/greppifilippo/oop/projet/OOP24-mind-escape/src/resources/rooms/archive.tmx
+]]></system-err>
+</testsuite>

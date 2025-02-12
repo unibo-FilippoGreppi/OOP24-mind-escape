@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mindescape.model.world.core.impl.GameObjectImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-02-12T09:43:02" hostname="Filos-MacBook-Air.local" time="0.015">
+  <properties/>
+  <testcase name="testGetPosition()" classname="mindescape.model.world.core.impl.GameObjectImplTest" time="0.01"/>
+  <testcase name="testGetName()" classname="mindescape.model.world.core.impl.GameObjectImplTest" time="0.001"/>
+  <testcase name="testGetDimensions()" classname="mindescape.model.world.core.impl.GameObjectImplTest" time="0.001"/>
+  <testcase name="testSetPosition()" classname="mindescape.model.world.core.impl.GameObjectImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
